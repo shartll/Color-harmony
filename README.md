@@ -10,3 +10,5 @@ A generator of harmonious color palettes
 
 ## Stack
 HTML, CSS, JavaScript, GSAP
+
+⚠️ Optimized for desktop; the screen may display incorrectly on mobile devices.

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color harmony</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <p class="title">color harmony</p>
+        </div>
+        <div class="harmony-selector">
+            <button class="harmony-btn active" data-harmony="analogous">Analogous</button>
+            <button class="harmony-btn" data-harmony="triad">Triad</button>
+            <button class="harmony-btn" data-harmony="complementary">Complementary</button>
+            <button class="harmony-btn" data-harmony="splitComplementary">Split</button>
+            <div class="harmony-indicator"></div>
+        </div>
+        <div>
+            <button class="generateBtn">Generate</button>
+            <p class="press">Or press to 'Space'</p>
+        </div>
+    </header>
+
+    <div class="page">
+        
+        <div class="container">
+            <div class="card card-hero">
+                <div class="role-container">
+                    <p class="role-text">accent</p>
+                </div>
+                <div class="hex-container">
+                    <p class="copy"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg> Copy</p>
+                    <p class="hex-text">#ce7fe6</p>
+                </div>
+            </div>
+            <div class="card card-2">
+                <div class="role-container">
+                    <p class="role-text">accent-2</p>
+                </div>
+                <div class="hex-container">
+                    <p class="copy"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg> Copy</p>
+                    <p class="hex-text">#ff0000</p>
+                </div>
+            </div>
+            <div class="card card-3">
+                <div class="role-container">
+                    <p class="role-text">light</p>
+                </div>
+                <div class="hex-container">
+                    <p class="copy"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg> Copy</p>
+                    <p class="hex-text">#008000</p>
+                </div>
+            </div>
+            <div class="card card-4">
+                <div class="role-container">
+                    <p class="role-text">dark</p>
+                </div>
+                <div class="hex-container">
+                    <p class="copy"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg> Copy</p>
+                    <p class="hex-text">#ffff00</p>
+                </div>
+            </div>
+            <div class="card card-5">
+                <div class="role-container">
+                    <p class="role-text">neutral</p>
+                </div>
+                <div class="hex-container">
+                    <p class="copy"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg> Copy</p>
+                    <p class="hex-text">#0000ff</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="toast">Code is copied!</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
